@@ -5386,3 +5386,72 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.17:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:44:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:44:38] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:44:38] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:44:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos super'}]
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:00] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:01] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 429: Too Many Requests
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:24] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone12', 'Name': 'Sivaramaraju Raju', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Best iPhone till date 💕'}, {'Product': 'iphone12', 'Name': 'Shivam Thakur', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I am very happy with I phone 12Very Nice Product Thanku Flipkart'}, {'Product': 'iphone12', 'Name': 'Jaya chandra  Reddy', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Amazing phone  In love with this phone'}, {'Product': 'iphone12', 'Name': 'Sibsankar Das', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Camera quality is just fabulous. Interface is very smooth.  Good for photography and videography.'}, {'Product': 'iphone12', 'Name': 'Shivam Kengale', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for it'}, {'Product': 'iphone12', 'Name': 'Rupesh Thik', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome Camera'}, {'Product': 'iphone12', 'Name': 'Arjun  Chakravarti ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Awesome'}, {'Product': 'iphone12', 'Name': 'Najir  Hussain ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Awesome camera quality…just love it'}, {'Product': 'iphone12', 'Name': 'Manoj Kumar ', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Super'}, {'Product': 'iphone12', 'Name': 'Kuldeep  Prakash', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Excellent camera , good performance,average battery'}, {'Product': 'iphone12', 'Name': 'Kuldeep  Prakash', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent camera , good performance,average battery'}]
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:36] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:36] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [02/Oct/2023 17:45:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.41:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:23:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:23:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:23:52] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:23:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone14', 'Name': 'Avi Nash', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Good'}, {'Product': 'iphone14', 'Name': 'Sanket  Hange ', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'The best camera best design !!1st iphone 14 !!i tried all  conditions light photo the quality is best i was impressed with device battery backup is good perform is very impressive 🔥'}, {'Product': 'iphone14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..'}, {'Product': 'iphone14', 'Name': 'Tara singh mehra', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Nice camera but battery drain fast specially on video recording'}, {'Product': 'iphone14', 'Name': 'Narendar Redyy', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Nice UI and Fast'}, {'Product': 'iphone14', 'Name': 'Ashwini  biswal ', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Awesome 👍'}, {'Product': 'iphone14', 'Name': 'SUNNY KUMAR', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'I used iPhone 12 mini and now upgraded with iPhone 14. Camera quality is awesome.Full day battery backup.Super Retina display with high dynamic range is awesome.In terms of camera and battery life is big upgrade for me.'}, {'Product': 'iphone14', 'Name': 'Ajay Kumar', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Just amazing!'}, {'Product': 'iphone14', 'Name': 'Abinash Bhuyan Rajput', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome....❤️🙌😌Display Camera Battery Processor....JUST WOW....✨💗☺️'}, {'Product': 'iphone14', 'Name': 'Vaish Khan', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Ultimate'}, {'Product': 'iphone14', 'Name': 'Vaish Khan', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Ultimate'}]
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:24:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:24:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:24:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 429: Too Many Requests
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:24:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.41:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:49:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:49:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:49:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:root:documents must be a non-empty list
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:49:54] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 429: Too Many Requests
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:50:04] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 429: Too Many Requests
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:50:13] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos super'}]
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:50:24] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:50:25] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [03/Oct/2023 15:50:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
